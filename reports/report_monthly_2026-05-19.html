@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>@nellsleep_usa — Monthly Report</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f4f5f7;color:#222}
+.header{background:linear-gradient(135deg,#405DE6,#833AB4,#E1306C,#FD1D1D);color:#fff;padding:32px 40px}
+.header h1{font-size:22px;font-weight:700}
+.header p{opacity:.8;margin-top:4px;font-size:14px}
+.container{max-width:1100px;margin:0 auto;padding:28px 20px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:28px}
+.kpi{background:#fff;border-radius:12px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.kpi .label{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:#888;margin-bottom:6px}
+.kpi .val{font-size:26px;font-weight:700}
+.charts{display:grid;grid-template-columns:2fr 1fr;gap:14px;margin-bottom:28px}
+.card{background:#fff;border-radius:12px;padding:22px;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.card h2{font-size:14px;font-weight:600;margin-bottom:16px;color:#555}
+.section-title{font-size:16px;font-weight:600;margin-bottom:14px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+th{background:#f8f9fa;text-align:left;padding:10px 14px;font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#666;border-bottom:1px solid #eee}
+td{padding:11px 14px;border-bottom:1px solid #f0f0f0;font-size:13px;vertical-align:top}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#fafafa}
+a{color:#405DE6;text-decoration:none}
+a:hover{text-decoration:underline}
+.footer{text-align:center;color:#bbb;font-size:12px;margin-top:36px;padding-bottom:24px}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>@nellsleep_usa &mdash; Monthly Instagram Report</h1>
+  <p>Generated May 19, 2026</p>
+</div>
+<div class="container">
+  <div class="kpis">
+    <div class="kpi"><div class="label">Total Followers</div><div class="val">1,706</div></div>
+    <div class="kpi"><div class="label">Monthly Growth</div><div class="val" style="color:#2ecc71">+0</div></div>
+    <div class="kpi"><div class="label">Growth Rate</div><div class="val" style="color:#2ecc71">+0.0%</div></div>
+    <div class="kpi"><div class="label">Posts Tracked</div><div class="val">10</div></div>
+  </div>
+
+  <div class="charts">
+    <div class="card"><h2>Follower Trend</h2><canvas id="lineChart"></canvas></div>
+    <div class="card"><h2>Top Posts by Follows</h2><canvas id="barChart"></canvas></div>
+  </div>
+
+  <div class="section-title">Top Posts by Follower Growth</div>
+  <table>
+    <thead><tr><th>#</th><th>Post</th><th>Type</th><th>Date</th><th>Follows</th><th>Interactions</th><th>Reach</th><th>Likes</th><th>Saves</th></tr></thead>
+    <tbody>
+        <tr>
+          <td>1</td>
+          <td><a href="https://www.instagram.com/p/DG0zIyhPbcq/" target="_blank">Experience the pinnacle of sleep luxury! 😴✨ The Nellify bed from Japan is arrivi...</a></td>
+          <td>FEED</td>
+          <td>2025-03-05</td>
+          <td><strong>8</strong></td>
+          <td>19</td>
+          <td>674</td>
+          <td>13</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><a href="https://www.instagram.com/p/DW6zAuHkeeN/" target="_blank">✨ Sleep goals, unlocked! ✨  This weekend, join us at the NELL Pop-Up at The Shop...</a></td>
+          <td>FEED</td>
+          <td>2026-04-09</td>
+          <td><strong>6</strong></td>
+          <td>70</td>
+          <td>1,464</td>
+          <td>39</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><a href="https://www.instagram.com/p/DIJnk9lJsMa/" target="_blank">Fluffy fights for better sleep! 💤✨ Did you know that playful activities like pil...</a></td>
+          <td>FEED</td>
+          <td>2025-04-07</td>
+          <td><strong>1</strong></td>
+          <td>3</td>
+          <td>97</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><a href="https://www.instagram.com/p/DXhOX0CEaAl/" target="_blank">We had the best time at our pop-up 🤍  Such a fun weekend—meeting you guys, hangi...</a></td>
+          <td>FEED</td>
+          <td>2026-04-24</td>
+          <td><strong>1</strong></td>
+          <td>9</td>
+          <td>395</td>
+          <td>6</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><a href="https://www.instagram.com/p/DV_9YoKkgSN/" target="_blank">Sleep 101 😴✨  Struggling with sleep? Let’s reset tonight.  At Nell USA, we belie...</a></td>
+          <td>FEED</td>
+          <td>2026-03-17</td>
+          <td><strong>0</strong></td>
+          <td>1</td>
+          <td>102</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><a href="https://www.instagram.com/reel/DS8INzuj0g5/" target="_blank">Sleep is calling in 2026 💤✨ And this year, we’re answering. Fewer late nights, d...</a></td>
+          <td>REELS</td>
+          <td>2025-12-31</td>
+          <td><strong>0</strong></td>
+          <td>2</td>
+          <td>111</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><a href="https://www.instagram.com/reel/DKrv4ANxMAY/" target="_blank">✨ Say hello to your best night’s sleep. Nell mattresses are now available in all...</a></td>
+          <td>REELS</td>
+          <td>2025-06-09</td>
+          <td><strong>0</strong></td>
+          <td>3</td>
+          <td>329</td>
+          <td>2</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td><a href="https://www.instagram.com/reel/DKUmbqSRhxi/" target="_blank">Japan’s most luxurious mattress has officially arrived 🇯🇵🛏️ Now available in the...</a></td>
+          <td>REELS</td>
+          <td>2025-05-31</td>
+          <td><strong>0</strong></td>
+          <td>5</td>
+          <td>302</td>
+          <td>4</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td><a href="https://www.instagram.com/p/DXwx5S2lM-B/" target="_blank">Thank you so much for showing up for us at our Nell Santa Anita pop-up 🤍 @shopsa...</a></td>
+          <td>FEED</td>
+          <td>2026-04-30</td>
+          <td><strong>0</strong></td>
+          <td>6</td>
+          <td>232</td>
+          <td>4</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td><a href="https://www.instagram.com/p/DR-LExLAaKj/" target="_blank">Hey, it’s Nell. I noticed your old mattress was… struggling. So I showed up, add...</a></td>
+          <td>FEED</td>
+          <td>2025-12-07</td>
+          <td><strong>0</strong></td>
+          <td>1</td>
+          <td>119</td>
+          <td>1</td>
+          <td>0</td>
+        </tr></tbody>
+  </table>
+  <div class="footer">Instagram Tracker &bull; @nellsleep_usa</div>
+</div>
+<script>
+new Chart(document.getElementById('lineChart'),{
+  type:'line',
+  data:{labels:["2026-05-19"],datasets:[{label:'Followers',data:[1706],
+    borderColor:'#405DE6',backgroundColor:'rgba(64,93,230,.08)',
+    borderWidth:2,pointRadius:3,fill:true,tension:.3}]},
+  options:{responsive:true,plugins:{legend:{display:false}},
+    scales:{y:{beginAtZero:false,ticks:{callback:v=>v.toLocaleString()}}}}
+});
+new Chart(document.getElementById('barChart'),{
+  type:'bar',
+  data:{labels:["Experience the pinnacle o...", "\u2728 Sleep goals, unlocked! ...", "Fluffy fights for better ...", "We had the best time at o...", "Sleep 101 \ud83d\ude34\u2728  Struggling ..."],datasets:[{label:'Follows',data:[8, 6, 1, 1, 0],
+    backgroundColor:'rgba(131,58,180,.7)',borderRadius:6}]},
+  options:{indexAxis:'y',responsive:true,plugins:{legend:{display:false}},
+    scales:{x:{beginAtZero:true}}}
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+I need you to update the Instagram tracker Google Sheets for @nellsleep_usa.
+
+Step 1: Read these two local CSV files:
+- C:\Users\美鳳下津\US\02_Marketing\SNS\Instagram\Instagram tracking\exports\daily_tracker.csv
+- C:\Users\美鳳下津\US\02_Marketing\SNS\Instagram\Instagram tracking\exports\post_performance.csv
+
+Step 2: Create two new Google Sheets in Google Drive folder ID: 1zlzbLD4Sh1ifjdB2geMwPPUb-tkjGvKP
+- Title the first sheet: @nellsleep_usa — Daily Follower Tracker
+- Title the second sheet: @nellsleep_usa — Post Performance
+- Use the exact CSV content from the files above (mime type: text/csv)
+
+Do not add any explanation — just create both files and confirm with the two Google Sheet links.
